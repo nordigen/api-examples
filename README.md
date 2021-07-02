@@ -7,7 +7,7 @@ For a full list of endpoints and arguments, see the [docs](https://nordigen.com/
 
 ### Install & run
 
-You'll need to get your access token from the [Nordigen's Open Banking Portal](https://ob.nordigen.com/login/). In <strong>app.py</strong> file provide the token as a paremeter for <strong>api.ng_token</strong> and a two-letter country code as a paremeter for <strong>api.country</strong> that will determine available banks (ASPSPs). 
+You'll need to get your access token from the [Nordigen's Open Banking Portal](https://ob.nordigen.com/login/). In <strong>app.py</strong> file provide the token as a parameter for <strong>api.ng_token</strong>, and a two-letter country code as a parameter for <strong>api.country</strong> that will determine available banks (ASPSPs). 
 
 ```bash
 pip3 install -r requirements.txt;
@@ -27,7 +27,7 @@ python3 app.py
   <img src="/docs/resources/_media/f_4.1_ng_redirect.png" width="200" /> 
 </p>
 
-##### 3. Sign into bank (ASPSP)
+##### 3. Sign in the bank (ASPSP)
 <p align="center">
   <img src="/docs/resources/_media/f_5_aspsps_signin.png" width="230" />
   <img src="/docs/resources/_media/f_5.1_aspsps_signin.jpg" width="200" /> 
@@ -44,7 +44,7 @@ python3 app.py
 </p>
 
 ##### 5. Download data
-Here redirect from nordigen to http://localhost:8081/results?ref={ref_id} happens
+Here a redirect from Nordigen to http://localhost:8081/results?ref={ref_id} happens
 <p align="center">
   <img src="/docs/resources/_media/f_7_accc_data.png" width="500" />
 </p>
